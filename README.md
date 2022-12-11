@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## OpenWeatherMap API
+
+The application uses the [Weather API](https://www.weatherapi.com/). In order to use this API you will need to sign up for an account and set the API key as the `REACT_APP_WEATHER_API_KEY` environment variable.
+
 ## Available Scripts
 
 In the project directory, you can run:
