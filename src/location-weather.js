@@ -91,7 +91,6 @@ function LocationWeather({ location }) {
     React.useEffect(() => {
         const loadingIndicatorTimeout = setTimeout(() => setIsLoading(true), 500);
         const getWeather = async () => {
-            debugger
             const result = await getLocationWeather(location);
             clearTimeout(loadingIndicatorTimeout);
             setIsLoading(false);
